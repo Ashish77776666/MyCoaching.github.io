@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Coaching</title>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styleCUp A(1).css">
+    
+
+</head>
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coaching</title>
+
     <!-- google fonts cdn link  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -51,7 +65,6 @@
     async defer></script>
    
 <!-- header section starts  -->
-
 <header>
     <div id="navbar1">
         <a href="#" class="menu-bars" id="show-menu">
@@ -69,7 +82,7 @@
            <div class="nav-section">
                <li class="nav-text"><a href="AboutCUp.html"><i class="fas fa-fire nav-icon"></i> About</a></li>
                <li class="nav-text"><a href="course.html"><i class="fas fa-book nav-icon"></i> Courses</a></li>
-               <li class="nav-text"><a href="#"><i class="fas fa-chalkboard-teacher nav-icon"></i> Teachers</a></li>
+               <li class="nav-text"><a href="IQ.html"><i class="fas fa-chalkboard-teacher nav-icon"></i> Check Your IQ</a></li>
                <li class="nav-text"><a href="help.html"><i class="fas fa-question-circle nav-icon"></i> Help</a></li>
                <li class="nav-text"><a href="contactus.html"><i class="fas fa-address-book nav-icon"></i> Contact Us</a></li>
            </div>
@@ -91,18 +104,20 @@
             <li><a href="#about">About</a></li>
             <li><a href="#courses">Courses</a></li>
             <li><a href="#teacher">Teacher</a></li>
-            <li><a href="#Help">Help?</a></li>
+            
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
-
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="You can search here">
+           <button type="submit" class="searchButton">
+             <i class="fa fa-search"></i>
+          </button>
+        </div>
+     </div>
     <div id="login" class="fas fa-user-circle"> Login</div>
-
 </header>
-
-<!-- header section ends -->
-
-<!-- login form  -->
 
 <div class="login-form">
 
@@ -110,29 +125,23 @@
         <h3>login</h3>
         <input type="email" placeholder="username" class="box">
         <input type="password" placeholder="password" class="box">
-        <p>forget password? <a href="#">click here</a></p>
-        <div class="bottom-container"><p>Don't have an account?</p> <a class="A1" href="http://127.0.0.1:5500/signup.html">Register Now</a></div>
+        <p>forget password? <a href="forgotten.html">click here</a></p>
+        <div class="bottom-container"><p>Don't have an account?</p> <a class="A1" href="http://localhost/my%20project/connection.php">Register Now</a></div>
         <input type="submit" class="btn" value="login">
         <i class="fas fa-times"></i>
     </form>
 
 </div>
 
-<!-- home section starts  -->
-
 <section class="home" id="home">
 
     <h1>Education From Home</h1>
     <p>When we are connected, when we feel heard, when we feel like we aren’t being force fed an education... that’s when real, passionate, fiery learning takes place. ~ Jessica Pilton</p>
-    <a href="#"><button class="btn">get started</button></a>
+    <a href="signup.html"><button class="btn">get started</button></a>
 
     <div class="shape"></div>
 
 </section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
 
 <section class="about" id="about">
 
@@ -152,10 +161,6 @@
 
 </section>
 
-<!-- about section ends -->
-
-<!-- course section starts  -->
-
 <section class="course" id="course">
 
 <h1 class="heading">our popular courses</h1>    
@@ -164,7 +169,7 @@
 
     <div class="box">
         <img src="image/Mathematics.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -173,7 +178,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">MATHEMATICS</a>
+            <a href="Payment_Form.html" class="title">MATHEMATICS</a>
             <p>Mathematics, the science of structure, order, and relation that has evolved from elemental practices of counting, measuring, and describing the shapes of objects. </p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -185,7 +190,7 @@
 
     <div class="box">
         <img src="image/Physics.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -194,7 +199,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">PHYSICS</a>
+            <a href="Payment_Form.html" class="title">PHYSICS</a>
             <p>Physics is the study of matter, motion, energy, and force. Here, you can browse videos, articles, and exercises by topic. We keep the library up-to-date, so you may find new or improved material here over time.</p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -206,7 +211,7 @@
 
     <div class="box">
         <img src="image/chemistry.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -215,7 +220,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">CHEMISTRY</a>
+            <a href="Payment_Form.html" class="title">CHEMISTRY</a>
             <p>Chemistry is the study of matter and the changes it undergoes. Here you can browse chemistry videos, articles, and exercises by topic. We keep the library up-to-date, so you may find new or improved material here over time.</p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -227,7 +232,7 @@
 
     <div class="box">
         <img src="image/computer science.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -236,7 +241,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">COMPUTER SCIENCE</a>
+            <a href="Payment_Form.html" class="title">COMPUTER SCIENCE</a>
             <p>Computer Science degrees deal with the theoretical foundations of information and computation, taking a scientific and practical approach to computation and its applications. </p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -248,7 +253,7 @@
 
     <div class="box">
         <img src="image/english.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -257,7 +262,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">ENGLISH</a>
+            <a href="Payment_Form.html" class="title">ENGLISH</a>
             <p>English is the Language of International Communication. Although English is not the most spoken language in the world, it is the official language in 53 countries and is spoken as a first language by around 400 million people worldwide. </p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -269,7 +274,7 @@
 
     <div class="box">
         <img src="image/General-Science.jpg" alt="">
-        <h3 class="price">Rs550</h3>
+        <a href="Payment_Form.html" class="price">Rs550</a>
         <div class="content">
             <div class="stars">
                 <i class="fas fa-star"></i>
@@ -278,7 +283,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half"></i>
             </div>
-            <a href="#" class="title">GENERAL SCIENCE</a>
+            <a href="Payment_Form.html" class="title">GENERAL SCIENCE</a>
             <p>General science or science is one of the most important channels of knowledge and plays a vital role in the preparation of competitive examinations. Studying subjects like Physics, Chemistry & Biology is important for the general understanding of things around us.</p>
             <div class="info">
                 <h3> <i class="far fa-clock"></i> 2 hours </h3>
@@ -292,27 +297,17 @@
 
 </section>
 
-<!-- course section ends -->
-
-<!-- teacher section starts  -->
-
 <section class="teacher" id="teacher">
 
 <h1 class="heading">our expert teachers</h1>
 
 <p>Teaching is somehow a mission, and being a teacher is a wonderful job that doesn’t often finish when you leave the school building every day, so it can be difficult to disconnect. Teachers involved in the program will acquire a certain level of self-awareness about their role, their approach to teaching and their being part of a bigger team, in order to prevent stress and promote a healthy work-life balance, satisfaction and effectiveness. <br> By the end of the course, teachers will learn how to set healthy boundaries to cope with overworking, how to regulate emotions, how to use assertiveness to respond properly to colleagues, students and families’ demands, and how to maximize their strengths in order to minimize hurriedness and time wasting. They will participate in group dynamic exercises and share their experiences in an international environment, experiencing effective communication techniques, mindfulness and creative management tools.
 <br>
-    The program of the course will follow a general structure but will actually be influenced by the topics, needs and situations that will emerge in the group, that may be different throughout different course editions.
-    
-    </p>
+ </p>
 
 <a href="https://www.teacheracademy.eu/course/life-coaching-for-teachers/"><button class="btn">learn more</button></a>
 
 </section>
-
-<!-- teacher section ends -->
-
-<!-- contact section starts  -->
 
 <section class="contact" id="contact">
 
@@ -321,11 +316,11 @@
 <div class="row">
 
     <form action="">
-        <input type="text" placeholder="full name" class="box">
-        <input type="email" placeholder="your email" class="box">
-        <input type="password" placeholder="your password" class="box">
-        <input type="number" placeholder="your number" class="box">
-        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+        <input type="text" placeholder="Full name" class="box">
+        <input type="email" placeholder="Your email" class="box">
+        <input type="password" placeholder="Reason of Contact" class="box">
+        <input type="number" placeholder="Your Contact No." class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="Brief Your Reason of Contact Here "></textarea>
         <input type="submit" class="btn" value="send now">
     </form>
 
@@ -336,10 +331,6 @@
 </div>
 
 </section>
-
-<!-- contact section ends -->
-
-<!-- footer section starts  -->
 
 <div class="footer">
 
@@ -361,31 +352,19 @@
             <a href="#">teachers</a>
             <a href="#">contact</a>
         </div>
-
         <div class="box">
             <h3>contact info</h3>
             <p> <i class="fas fa-map-marker-alt"></i> Chandigarh, india 160010 </p>
             <p> <i class="fas fa-envelope"></i> mycoaching@gmail.com </p>
             <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
         </div>
-
     </div>
-
     <h1 class="credit">Proudly made with love in India by <a href="#">" Team My Coaching "</a> </h1>
     <hr/>
     <h2 class="Footl">Copyright 2020 @ My Coaching. All Rights Reserved. <a class="terms" href="#">Terms & Conditions | Privacy Policy</a></h2>
 </div>
-
-<!-- footer section ends -->
-
-<!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
 <script src="scriptCUp.js"></script>
-<script id="60e608bdf0c7cd1057eb05b4" 
-    src="https://dashboard.chatfuel.com/integration/fb-entry-point.js" 
-    async defer></script>
 
 </body>
 </html>

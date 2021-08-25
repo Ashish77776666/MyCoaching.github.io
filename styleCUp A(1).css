@@ -299,7 +299,7 @@ header #menu{
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    background:url(image/home-bg.jpg) no-repeat;
+    background:url(love.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -343,6 +343,10 @@ header #menu{
 }
 
 .about{
+    background-image: url("Rashmi.png");
+    height:100vh;
+    background-size: cover;
+    background-position:top;
     display: flex;
     align-items: center;
     justify-content: center;
